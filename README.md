@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=roboto&color=%23F7C51D&size=18&vCenter=true&height=16&lines=Hi+there+%2CI'm+Kiruthick;I+learn+technical+stuffs.;You+can+c%C3%B8ntact+me+in+via+email.;Hi+there%2C+I'm+3rd+year+CSE+student;Hi+there%2C+I+used+to+listen+music+&+stuffs.)]
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=roboto&color=%23F7C51D&size=18&vCenter=true&height=16&lines=Hi+there+%2CI'm+Kiruthick;You+can+c%C3%B8ntact+me+via+email.;Hi+there%2C+I'm+3rd+year+CSE+student;Hi+there%2C+I+used+to+listen+music+&+stuffs.)]
 <h3> I am kiruthick</h3>
 
 <!--
