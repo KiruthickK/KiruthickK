@@ -1,5 +1,8 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=roboto&color=%23F7C51D&size=18&vCenter=true&height=16&lines=Hi+there+%2CI'm+Kiruthick;You+can+c%C3%B8ntact+me+via+email.;Hi+there%2C+I'm+3rd+year+CSE+student;Hi+there%2C+I+used+to+listen+music+&+stuffs.)]
 
+
+<h2>
+  Hello there, my name is Kiruthick and I have a passion for making websites and undertaking Python projects. In my free time, I enjoy playing games and listening to music. I am constantly looking for ways to expand my knowledge and improve my skills in these areas. I am excited about the possibilities that technology offers and am always eager to learn new things.</h2>
 <!--
 **KiruthickK/KiruthickK** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
