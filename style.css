@@ -80,7 +80,8 @@ li a {
 }
 
 #logo {
-    visibility: hidden;
+    /* Remove after completion of development! */
+    /* visibility: hidden; */
     width: 250px;
     height: 250px;
 }
