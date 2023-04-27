@@ -1,7 +1,3 @@
-function AlertThem() {
-    alert("The page is still at its contruction stage, but you can view now");
-}
-
 function GitDisplay() {
     document.getElementById("logo").src = "Images/git-logo.png"
     document.getElementById("logo").style.visibility = 'visible';
