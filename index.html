@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <div id="nav-bar">
+        <nav>
+            <ul>
+                <li> <a href="#" id="firsthref">
+                    Home
+                </a>
+                </li>
+                <li>
+                    <a href="#">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#">                    
+                        links
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Social Links
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact Me
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="leftside">
+        <div id="home" class="contents">
+            <h1>home</h1>
+
+        </div>
+        <div id="about" class="contents">
+            <h1>About Me</h1>
+        </div>
+        <div id="links" class="contents">
+            <h1>links</h1>
+            <p>Take a look at my profiles here,</p><br>
+            <ul>
+                <li>
+                    <a href="https://github.com/KiruthickK" target="blank" onmouseover="GitDisplay()" onmouseout="GitDisplayBack()">GitHub</a>
+                </li><br>
+                <li>
+                    <a href="https://www.hackerrank.com/kiruthick_k2020" target="blank" onmouseover="HackerRankDisplay()" onmouseout="HackerRankDisplayBack()">Hackerrank</a>
+                </li><br>
+                <li>
+                    <a href="https://leetcode.com/Kiruthick_Nvp/" target="blank" onmouseover="LeetcodeDisplay()" onmouseout="LeetcodeDisplayBack()">Leetcode</a>
+                </li>
+            </ul>
+        </div>
+        <div id="social-links" class="contents">
+            <h1>social links</h1>
+        </div>
+        <div id="contactme" class="contents">
+            <h1>contacts</h1>
+        </div>
+    </div>
+    <div id="display">
+        <img src="Images/git-logo.png" alt="logo" id="logo" class="images">
+    </div>
+</body>
+
+</html>

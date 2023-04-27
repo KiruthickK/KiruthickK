@@ -1,0 +1,99 @@
+/* body {
+    background: url(Images/main-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Verdana;
+} */
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    color: aliceblue;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+#firsthref {
+    margin-left: 34%;
+}
+
+#nav-bar {
+    background: linear-gradient(#141e30, #243b55);
+    width: 100%;
+}
+
+ul li a:active {
+    color: rgb(107, 111, 118);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a:hover {
+    color: cadetblue;
+}
+
+li a {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#leftside {
+    float: left;
+    margin-left: 10%;
+}
+
+.contents {
+    /* background-color: aliceblue; */
+    /* float: left; */
+    width: 300%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.images {
+    position: absolute;
+}
+
+#display {
+    position: fixed;
+    margin-top: 5%;
+    float: left;
+    margin-left: 70%;
+    width: 30%;
+}
+
+#logo {
+    visibility: hidden;
+    width: 250px;
+    height: 250px;
+}
+
+
+/* #nav-bar {
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+} */
