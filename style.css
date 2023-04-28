@@ -8,6 +8,7 @@
 
 html {
     height: 100%;
+    cursor: url('Images/icons8-cursor-31.png'), auto;
 }
 
 body {
@@ -40,6 +41,7 @@ ul {
 
 li a:hover {
     color: cadetblue;
+    cursor: url("Images/icons8-web-24.png"), auto;
 }
 
 li a {
