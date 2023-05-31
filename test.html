@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#main1 {
+    background-image: url("./Images/Background-1.jpg");
+    background-position: top center;
+    background-attachment:scroll;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#placeholdersoyoucanscroll{
+    height:100vh
+}
+    </style>
+    <script>
+        document.getElementById("body").onscroll = function myFunction() {  
+    var scrolltotop = document.scrollingElement.scrollTop;
+    var target = document.getElementById("main1");
+    var xvalue = "center";
+    var factor = 0.5;
+    var yvalue = scrolltotop * factor;
+    target.style.backgroundPosition = xvalue + " " + yvalue + "px";
+  }
+    </script>
+</head>
+<body>
+    <body id="body">
+        <main>
+          <div id="main1">
+          </div>
+          <div id="placeholdersoyoucanscroll">
+          </div>
+      </main>
+  </body>
+</body>
+</html>
