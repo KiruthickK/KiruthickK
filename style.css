@@ -23,3 +23,14 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   /* Adjust the last value (alpha) to control transparency */
 }
+.main-container{
+min-height: 80vh;
+}
+footer{
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 10vh;
+  background: grey;
+}
