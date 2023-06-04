@@ -1,17 +1,42 @@
 .btn {
   padding: 0.55rem 1.5rem 0.45rem;
 }
+@font-face {
+  font-family: Quick-sand;
+  src: url("./Quicksand/static/Quicksand-Regular.ttf");
+}
 body {
-  font-family: "Consolas", monospace;
+  font-family: Quick-sand;
   margin: 0;
   padding: 0;
   background-image: url(./Images/Background-1.jpg), url(./Images/upsidedown.jpg);
   background-size: cover;
+  color: rgb(34, 29, 29);
   background-attachment: scroll;
   background-repeat: repeat;
 }
-.extra-a:hover {
-  color: rgb(253, 255, 156);
+p{
+  text-indent: 30px;
+}
+img{
+  width: auto;
+  max-height: 60vh;
+}
+.extra-a:hover, a:hover {
+  color: rgb(255, 255, 255);
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                 0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+  }
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 
+                 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }
 .extra-a:active {
   color: rgb(255, 128, 49);
@@ -20,7 +45,7 @@ body {
   margin-top: 5%;
 }
 .translucent-bg {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.696);
   /* Adjust the last value (alpha) to control transparency */
 }
 .main-container{
