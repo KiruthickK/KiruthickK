@@ -6,17 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio of KK</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Consolas">
+  <link rel="stylesheet" href="./bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="style.css" type="text/css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
+  <link rel="shortcut icon" href="./Images/profile.ico" type="image/x-icon">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Kiruthick Portfolio</a>
+      <a class="navbar-brand fw-bolder glow-me" id="top" href="#">Kiruthick Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,20 +24,23 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto d-flex flex-row mt-3 mt-lg-0">
           <li class="nav-item text-center mx-2 mx-lg-1">
-            <a class="nav-link extra-a" href="#links">
-              <div>
-              </div>
-              Social Media Profiles
+            <a class="nav-link extra-a glow-me" href="#codelinks">
+              Profiles
             </a>
           </li>
           <li class="nav-item text-center mx-2 mx-lg-1">
-            <a class="nav-link extra-a" href="#codelinks">
-              Coding and Development Profiles
-            </a>
-          </li>
-          <li class="nav-item text-center mx-2 mx-lg-1">
-            <a class="nav-link extra-a" href="#experience">
+            <a class="nav-link extra-a glow-me" href="#experience">
               Experience
+            </a>
+          </li>
+          <li class="nav-item text-center mx-2 mx-lg-1">
+            <a class="nav-link extra-a glow-me" href="#about-this">
+              About this page
+            </a>
+          </li>
+          <li class="nav-item text-center mx-2 mx-lg-1">
+            <a class="nav-link extra-a glow-me" href="#contact">
+              Contact Me
             </a>
           </li>
         </ul>
@@ -46,51 +49,116 @@
   </nav>
   <div class="main-container">
     <div class="m-3">
-      <div class="shadow container mt-5  rounded translucent-bg w-400">
+      <div class="shadow-lg container mt-5  rounded translucent-bg w-400">
         <div class="row justify-content-center ps-3 pe-3">
           <div class="extra-div-height"></div>
-          <div class="col-sm-12 mx-auto">
-            <h3>About me</h3>
-            <p>
-              Hi, I'm a fourth-year B.Tech. CSE student who is interested in software creation for websites and Android
-              apps right now. I like to code in my free time, and I develop some random websites or mobile apps of my intrest at my free times.
+          <div class="col-sm-12 mx-auto" id="about-me">
+            <h3 class="fw-bolder">About me</h3>
+            <p class="make-indent">
+              Hi, I'm a fourth-year B.Tech. CSE student who is intrested in software creation for websites and Android
+              apps right now. I like to code in my free time, and I develop some random websites or mobile apps of my
+              intrest at my free times.
               I love to Drive, and specially really loves to drive cars, and I like cars so much.
             </p>
           </div>
-          <div class="col-sm-12 mx-auto">
-            <h3>Coding and Development Profiles</h3>
+          <div class="col-sm-12 mx-auto" id="codelinks">
+            <h3 class="fw-bolder">Coding and Development Profiles</h3>
+            <p>I like coding very much, and I wish to contribute my work to the community, here some of my projects
+              which I have published on GitHub.</p>
             <ul>
               <li>
-                <a class="nav-link extra-a" href="https://github.com/KiruthickK" target="blank">GitHub</a>
+                <a class="nav-link extra" href="https://github.com/KiruthickK" target="blank">
+                  <span class="glow-me">GitHub</span>
+                </a>
               </li>
+            </ul>
+            <p>I also Like to do problem solving using codings, and for that I Found these platforms as helpful and made me to improve my coding skills. Take a look at my profile on these.</p>
+            <ul>
               <li>
                 <a class="nav-link extra-a" href="https://www.hackerrank.com/kiruthick_k2020"
-                  target="blank">Hackerrank</a>
+                  target="blank">
+                  <span class="glow-me">
+                    Hackerrank
+                  </span>
+                </a>
               </li>
               <li>
-                <a class="nav-link extra-a" href="https://leetcode.com/Kiruthick_Nvp/" target="blank">Leetcode</a>
+                <a class="nav-link extra-a" href="https://leetcode.com/Kiruthick_Nvp/" target="blank">
+                  <span class="glow-me">
+                    Leetcode
+                  </span>
+                </a>
               </li>
             </ul>
           </div>
-          <div class="col-sm-12 mx-auto">
-            <h3>Social Media Profiles</h3>
+          <div class="col-sm-12 mx-auto" id="links">
+            <h3 class="fw-bolder">Social Media Profiles</h3>
+            These are my social media profiles.,
             <ul>
               <li>
                 <a class="nav-link extra-a" href="https://instagram.com/kiruthick_nvp?igshid=MzNlNGNkZWQ4Mg=="
-                  target="blank">Instagram</a>
+                  target="blank">
+                  <span class="glow-me">
+                    Instagram    
+                  </span>
+                </a>
               </li>
               <li>
-                <a class="nav-link extra-a" href="https://www.facebook.com/Kiruthick.KNvp/" target="blank">FaceBook</a>
+                <a class="nav-link extra-a" href="https://www.facebook.com/Kiruthick.KNvp/" target="blank">
+                  <span class="glow-me">
+                    FaceBook    
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p>I also have some intrest in photography, as of now I dont have a professional camera, but I have a pretty
+              enough good quality camera in my mobile, which helped me to take some nice photos of things around me.
+              Have a look at some of my photographs, which i posted on instagram.</p>
+            <ul>
+              <li>
+                <a class="nav-link extra-a" href="https://instagram.com/mr_camera_101?igshid=MzNlNGNkZWQ4Mg=="
+                  target="blank">
+                  <span class="glow-me">
+                    Instagram Photography    
+                  </span>
+                </a>
               </li>
             </ul>
           </div>
-          <div class="col-sm-12 mx-auto">
-            <h3>Experience</h3>
+          <div class="col-sm-12 mx-auto" id="experience">
+            <h3 class="fw-bolder">Experience</h3>
             <p>
               I have Experience on web development as an intern at
-              <a href="https://logicresearchlabs.com/" class="text-decoration-none text-dark"><b>Logic Research and
+              <a href="https://logicresearchlabs.com/" class="text-decoration-none text-dark"><b class="glow-me">Logic Research and
                   Labs.</b></a>
             </p>
+          </div>
+          <div class="col-sm-12 mx-auto" id="contact">
+            <h3 class="fw-bolder">Contact Me</h3>
+            <p>
+              You can contact me via my 
+              <span class="glow-me">
+                <b>
+                  <a href="mailto:kiruthick101@gmail.com" id="mail">personal mail</a>
+                </b>
+              </span>
+              .
+            </p>
+          </div>
+          <div class="col-sm-12 mx-auto" id="about-this">
+            <h3>About this web page</h3>
+            <p>
+              This webpage is developed using HTML, JavaScript and CSS. I have used Bootstrap 5 for UI designing.
+              Finally this webpage is hosted using GitHub.
+            </p>
+          </div>
+          <hr>
+          <div class="col-sm-12 mx-auto">
+            <a href="#top" class="nav-link">
+              <span class="glow-me">
+                <b>Click here </b>to go back to top
+              </span>
+            </a>
           </div>
           <div class="extra-div-height"></div>
         </div>
@@ -98,7 +166,11 @@
     </div>
   </div>
   <footer class="container-fluid bg-dark text-light text-center">
-    Developed By Kiruthick
+    <a class="nav-link" href="https://github.com/KiruthickK" target="blank">
+      <span class="glow-me">
+        Developed By Kiruthick                
+      </span>
+    </a>
   </footer>
 </body>
 
