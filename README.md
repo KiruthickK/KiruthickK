@@ -1,25 +1,27 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=roboto&color=%23F7C51D&size=18&vCenter=true&height=16&lines=Hi+there+%2CI'm+Kiruthick;You+can+c%C3%B8ntact+me+via+email.;Hi+there%2C+I'm+3rd+year+CSE+student;Hi+there%2C+I+used+to+listen+music+&+stuffs.)
-<br>
-👷‍♂️I currently work on Web Development using HTML, CSS, JavaScript, Node JS, PHP, Bootstrap.<br>
-🤌I'm intreseted to work with App development, web Development, Python and Java.<br>
-👀I'm currently looking for placements, and just completed intern in <a href="https://logicresearchlabs.com/">LRL</a><br>
-<a href="https://kiruthickk.github.io/KiruthickK/" target="blank"> Personal Website</a>
+# React + TypeScript + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-<!--
-**KiruthickK/KiruthickK** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-<h2>
-  Hello there, my name is Kiruthick and I have a passion for making websites and undertaking Python projects. In my free time, I enjoy playing games and listening to music. I am constantly looking for ways to expand my knowledge and improve my skills in these areas. I am excited about the possibilities that technology offers and am always eager to learn new things.</h2>
-Here are some ideas to get you started:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- 🔭 I’m currently a 3rd year B.Tech CSE student <!-- working on ... 
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+## Expanding the ESLint configuration
 
--->
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+
+- Configure the top-level `parserOptions` property like this:
+
+```js
+   parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+   },
+```
+
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
