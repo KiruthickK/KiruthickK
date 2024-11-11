@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=roboto&color=%23F7C51D&size=18&vCenter=true&height=16&lines=Hi+there+%2CI'm+Kiruthick;You+can+c%C3%B8ntact+me+via+email.;Hi+there%2C+I'm+3rd+year+CSE+student;Hi+there%2C+I+used+to+listen+music+&+stuffs.)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=roboto&color=%23F7C51D&size=18&vCenter=true&height=16&lines=Hi+there+%2CI'm+Kiruthick;You+can+c%C3%B8ntact+me+via+email.;Hi+there%2C+I'm+a+CPP+Developer;Hi+there%2C+I+used+to+listen+music+&+stuffs.)
 <br>
 👷‍♂️I currently work as a C++ Developer in KPIT Technologies, Bangalore and I have internship experience in Web Development using HTML, CSS, JavaScript, Node JS, PHP, Bootstrap.<br>
 🤌I'm intreseted to work with App development, web Development, Python and Java.<br>
