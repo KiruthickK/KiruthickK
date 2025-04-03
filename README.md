@@ -2,7 +2,7 @@
 <br>
 👷‍♂️I currently work as a C++ Developer in KPIT Technologies, Bangalore and I have internship experience in Web Development using HTML, CSS, JavaScript, Node JS, PHP, Bootstrap.<br>
 🤌I'm intreseted to work with App development, web Development, Python and Java.<br>
-👀I'm currently looking for placements, and just completed intern in <a href="https://logicresearchlabs.com/">LRL</a><br>
+I have completed my internship in <a href="https://logicresearchlabs.com/">LRL</a><br><br>
 <a href="https://kiruthickk.github.io/KiruthickK/" target="blank"> Personal Website</a>
 
 
